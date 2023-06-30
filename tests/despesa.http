@@ -1,0 +1,16 @@
+### Cadastrar despesa
+POST http://localhost:3333/cadastrar
+Content-Type: application/json
+
+{
+    "descricao" : "Almoço no restaurante",
+    "preco" : 35
+}
+
+### Listar despesas
+GET http://localhost:3333/listar
+
+
+### Visualizar despesas
+
+GET http://localhost:3333/visualizar
